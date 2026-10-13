@@ -1,0 +1,41 @@
+# User research profile; loaded after custom.yaml so CUSTOM_CONFIG cannot overwrite it.
+# Semantic ranking: 70% explicit research interests + 30% Zotero library similarity.
+research:
+  weight: 0.7
+  topics:
+    - >-
+      Catalysis and electrocatalysis: heterogeneous catalysts, active sites,
+      catalytic reaction mechanisms, oxygen evolution reaction (OER), hydrogen
+      evolution reaction (HER), oxygen reduction reaction (ORR), water splitting,
+      adsorption energetics and structure-activity relationships.
+    - >-
+      Amorphous and disordered material systems: amorphous metals, metallic glasses,
+      amorphous alloys, oxides, sulfides and hydroxides; local coordination,
+      short-range and medium-range order, defects, crystalline-amorphous interfaces,
+      structural reconstruction and mechanisms of material properties.
+    - >-
+      Microscopic structure and mechanisms in catalysts and amorphous materials:
+      atomic structure, coordination environment, operando characterization,
+      local structural evolution, active-site identification, electronic structure,
+      density of states, orbital hybridization, d-band center and density functional theory.
+    - >-
+      Electronic charge and spin properties and their coupling in materials and catalysis:
+      charge transfer, charge redistribution, oxidation states, spin polarization,
+      spin states, spin-dependent catalysis, magnetic exchange, spin-charge coupling,
+      spin-orbit coupling and magnetically controlled reaction mechanisms.
+
+source:
+  arxiv:
+    category:
+      - cond-mat.mtrl-sci
+      - cond-mat.dis-nn
+      - cond-mat.str-el
+      - cond-mat.mes-hall
+      - physics.chem-ph
+    include_cross_list: true
+
+llm:
+  language: Simplified Chinese
+
+executor:
+  max_paper_num: 20
